@@ -1,0 +1,34 @@
+basic navigation
+
+    hjkl: left, down, up, right
+    gg G: top, bottoom
+    M: middle,
+    L: first col of last row
+    w: next word
+    b: prev word
+    a: append (move one character right and enter insert mode)
+    A: append to the end of line (and enter insert mode)
+    $: end of line
+    0: start of line
+    ^: start of line after whitespaces
+
+selection
+    K: expand selection (vim-expand plugin)
+    J: unexpand selection (vim-expand plugin)
+    vi}i}: select inner block surrounded by },],) accordingly
+    vi}: select block if cursor is at the block start
+
+text operations
+    J: join lines
+    ~: switch case of char/selection
+
+tools
+    pcf: codestyle fix according to PSR
+
+other
+    :Song search song by name on spotify
+    :Artist search songs by artist on spotify
+
+auto commands:
+    :w lints the file and runs php cs-fix before writing out the buffer
+
