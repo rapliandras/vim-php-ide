@@ -45,6 +45,13 @@ registers
     "= expression register
     "=3*3<CR>p pastes 9
     
+read-only registers
+    "/ last search
+    ": last command
+    "% current filename
+    ". last inserted text
+    "# alternate filename
+    
 project navigation
     :e FILENAME to edit a file (overwrites current buffer)
     :tabe FILENAME opens file in a new tab (vim7)
