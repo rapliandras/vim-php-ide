@@ -42,6 +42,8 @@ registers
     "A to "Z append to own registers
     "a{somethig} insert to register
     "ap paste register contents
+    "= expression register
+    "=3*3<CR>p pastes 9
     
 project navigation
     :e FILENAME to edit a file (overwrites current buffer)
