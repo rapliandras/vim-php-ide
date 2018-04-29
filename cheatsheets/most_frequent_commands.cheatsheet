@@ -33,6 +33,16 @@ text operations
         can be combined with movement operators and also works with visual selection
     ciw: diw + enters insert mode
 
+registers
+    "+ clipboard (if compiled with the right flag or vim-gnome used)
+    "* selection register (middle mouse button, autofill)
+    "" unnamed register for every junk incl. x, d{movement}
+    "0 yank register for previously yanked text
+    "a to "z own registers
+    "A to "Z append to own registers
+    "a{somethig} insert to register
+    "ap paste register contents
+    
 project navigation
     :e FILENAME to edit a file (overwrites current buffer)
     :tabe FILENAME opens file in a new tab (vim7)
